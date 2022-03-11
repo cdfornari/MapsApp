@@ -1,4 +1,6 @@
-import { AnySourceData, LngLatBounds, Map, Marker, Popup } from "mapbox-gl"
+/*eslint import/no-webpack-loader-syntax: off */
+//@ts-ignore
+import { AnySourceData, LngLatBounds, Map, Marker, Popup } from "!mapbox-gl"
 import { useContext, useEffect, useReducer } from "react";
 import { MapContext } from './MapContext';
 import { mapReducer } from './mapReducer';
